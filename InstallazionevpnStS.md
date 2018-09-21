@@ -1,0 +1,1 @@
+[routing site to site pfsense](https://www.netgate.com/docs/pfsense/vpn/openvpn/routing-internet-traffic-through-a-site-to-site-openvpn-connection-in-pfsense-2-1.html) 

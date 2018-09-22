@@ -40,3 +40,7 @@ create a vpn across datacenter
 port 8014 
 
 ip 88.147.126.145
+
+
+
+[consul multidatacenter with NAT](http://www.devtech101.com/2017/08/31/using-consul-service-discovery-multiple-data-centers-part-1/)

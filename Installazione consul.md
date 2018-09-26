@@ -11,8 +11,9 @@ sudo systemctl enable metricbeat.service
 sudo systemctl start metricbeat.service 
 
  rm consul_* metricbeat-*
-./consul agent -config-dir=./Consul/
-./consul agent -config-dir=./Consul/ -ui -client 0.0.0.0
+ 
+sudo ./consul agent -config-dir=./Consul/
+sudo ./consul agent -config-dir=./Consul/ -ui -client 0.0.0.0
 ```
 
  
@@ -44,3 +45,5 @@ ip 88.147.126.145
 
 
 [consul multidatacenter with NAT](http://www.devtech101.com/2017/08/31/using-consul-service-discovery-multiple-data-centers-part-1/)
+
+consul bok https://imaginea.gitbooks.io/consul-devops-handbook/content/server_configuration.html
